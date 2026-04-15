@@ -1,0 +1,10 @@
+{
+  "automatic-renumbering:2-renumber-entire-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}
