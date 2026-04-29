@@ -4,7 +4,7 @@
 | 8:00  |                       Desarrollo de software                       | Diseño de sistemas de informacion  |   Diseño de sistemas de informacion    |  Base de datos   |  Comunicación de datos   |
 | 9:00  |                        --------------------                        |         -----------------          |           ------------------           |     --------     |    ------------------    |
 | 10:00 |                       ----------------------                       |         -----------------          |           ------------------           |     --------     |    ------------------    |
-| 10:15 | ------------------------------------------------------------------ | Diseño de sistemas de informacion  |   Diseño de sistemas de información    | ---------------- |    ------------------    |
+| 10:15 | ------------------------------------------------------------------ | Diseño de sistemas de información  |   Diseño de sistemas de información    | ---------------- |    ------------------    |
 |       |                             Fisica II                              |           Base de datos            |       Probabilidad y estadística       | ---------------- |    ------------------    |
 | 10:30 |                       ----------------------                       |         -----------------          |          -------------------           |     --------     |    ------------------    |
 | 11:00 |                       Desarrollo de software                       | ---------------------------------- | -------------------------------------- |  Base de datos   |  Comunicación de datos   |
