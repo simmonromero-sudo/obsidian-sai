@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/AM II/EDO.md",
+                "file": "2026/Bases de datos/MODELO ENTIDAD RELACIÓN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EDO"
+              "title": "MODELO ENTIDAD RELACIÓN"
             }
           }
         ]
@@ -171,8 +171,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -181,12 +181,22 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
             "id": "b76a382a8050f2dd",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
+          },
+          {
+            "id": "51390a7760bd48a8",
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
@@ -196,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -218,12 +228,15 @@
   },
   "active": "f2d9f57ca818f058",
   "lastOpenFiles": [
-    "2026/AM II/EJERCICIOS A LLEVAR EL 21.md",
-    "2026/AM II/EDO.md",
-    "2026/Planificación.md",
+    "2026/Bases de datos/MODELO ENTIDAD RELACIÓN.md",
+    "2026/Bases de datos/CLASE 3.md",
     "2026/Bases de datos/CLASE 5.md",
-    "2026/Diseño de sistemas de información/CLASE 5.md",
+    "2026/Bases de datos/CLASE 1.md",
     "2026/Diseño de sistemas de información/CLASE 4.md",
+    "2026/AM II/EDO.md",
+    "2026/AM II/EJERCICIOS A LLEVAR EL 21.md",
+    "2026/Planificación.md",
+    "2026/Diseño de sistemas de información/CLASE 5.md",
     "calase 3 1.ldb",
     "2026/Diseño de sistemas de información/CLASE 3.md",
     "calase 3.ldb",
@@ -233,7 +246,6 @@
     "Pasted image 20260413084542.png",
     "Pasted image 20260413082234.png",
     "2026/Tecnología y gestión web/CLASE 2.md",
-    "2026/Bases de datos/CLASE 3.md",
     "Pasted image 20260407122302.png",
     "Pasted image 20260407120938.png",
     "Pasted image 20260407120908.png",
@@ -251,7 +263,6 @@
     "Untitled.canvas",
     "2026/Diseño de sistemas de información",
     "2026/Tecnología y gestión web/CLASE 1.md",
-    "2026/Bases de datos/CLASE 1.md",
     "2026/Comunicacion de datos/CLASE 2.md",
     "2026/Desarrollo de software",
     "Untitled/SIST OP..md",
