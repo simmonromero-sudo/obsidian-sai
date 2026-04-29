@@ -752,4 +752,204 @@ y_{pc}(x)=x^h\ B \ e^{ax}
 $$
 
 
- 
+ **Tercera regla:**
+Si $r(x)$ es una combinación de funciones trigonométricas del tipo:
+$r(x) = A\cos \omega + B \sin \omega \ x \Rightarrow$   se ensaya como solución particular otra combinación de funciones trigonométricas del tipo:
+$$
+y_{pc}= D \ cos\ \omega \ x + E \ sen \ \omega \ x \ \ \ \text{(siedno D y E los coef. indet. a calcular)}
+$$
+
+Ambas funciones trigonométricas presentes en la $y_{pc}$ tienen el mismo argumento. Ahora bien, si el numero imaginario puro (parte real nula) "**i$\omega$**", es raíz de orden 1 de la Ecuación Característica, entonces se ensaya como solución particular:
+$$
+y_{pc} (x) = x \ (D \ cos \\omegaa \ x + E \ sen \ \omega \ x)
+$$
+Es importante notar que en este caso las raíces imaginarias puras serán conjugadas es decir una con signo positivo u la restante con signo negativo. Por ello el orden de multiplicidad h a considerar sólo puede valer 0 o 1; nunca 2.
+
+**Cuarta regla:**
+
+Si $r(x)$ es una combinación -suma algebraica o producto - de las funciones analizadas en las tres reglas anteriores, se ensaya como solución la misma combinación de las soluciones particulares ensayadas en cada caso, sujetas a las mismas restricciones respecto de las raíces de la Ecuación Característica.
+
+
+## Método de Variación de Parámetros
+
+Se trata de un método más general que el de Coeficientes Indeterminados, presentado en la clase anterior, ya que no sólo puede aplicarse al caso en que la función $r(x)$ sea una función elemental, sino a funciones más generales.
+Es un método que nos permite determinar la solución particular de la EDO no homogénea (o completa), que sumada a la solución general de la homogénea nos dará la solución general final (2).
+
+$$
+y(x)=y_{gh}(x)+y_{pc}(x)\ \ (2)
+$$
+Ya se demostró que la solución general de la EDO de segundo orden, homogénea:
+$$
+y´´(x)+f(x)y´(x)+g(x)y(x)=0 \ \ (3)
+$$
+$$
+y_{gh}(x)= C_1y_1(x)+C_2y_2(x) \ \ (4)
+$$
+Es decir, la solución generala de la EDO homogénea es una combinación lineal de dos funciones que, separadamente, son soluciones de la EDO homogénea. Donde $y_1(x)$ e $y_2(x)$ constituyen un SIST. FUNDAMENTAL de soluciones de la EDO homogénea.
+El Método de Variación de Parámetros consiste en determinar la solución particular de la EDO no homogénea reemplazando las constantes $C_1 \ y \ C_2$ en la (4) por dos funciones $u(x)\ y \ v(x)$ que, por el momento, son desconocidas. Entonces:
+$$
+y_{pc}(x)= u(x)y_1(x)+v(x)y_2(x) \ \ (5)
+$$
+Una vez obtenida la (5) será solución particular de la EDO no homogénea (1). En la solución particular de la no homogénea (5) no se agregan Constante de Integración, ya que éstas están consideradas en al solución general de la homogénea.
+Derivando la (5) respecto de x se tiene:
+$$
+y´_{pc}(x)=\textcolor{purple}{u´(x)y_1(x)}+u(x)y´_1(x)+ \textcolor{purple}{v´(x)y_2(x)}+v(x)y´_2(x) \ \ (6)
+$$
+Pueden determinarse las funciones $u(x)$ y $v(x)$ tales que cumplan con la siguiente condición:
+$$
+\textcolor{purple}{u´(x)y_1(x)+v´(x)y_2(x)=0} \ \ (7)
+$$
+En lo sucesivo, y a los efectos de simplificar la notación, no se indicarán los paréntesis (x) ya que todas las funciones involucradas son funciones de x.
+$$
+\textcolor{purple}{u´y_1+v´y_2=0} \ \ (7´)
+$$
+Entonces la derivada primera de la solución particular de la EDO completa será:
+$$
+y´_{pc}=uy´_1+vy´_2 \ \ (8)
+$$
+Derivando nuevamente la (8) para obtener la derivada segunda se tiene:
+$$
+y´´_{pc}=u´y´_1+uy´´_1+v´y´_2+vy´´_2 \ \ (9)
+$$
+Reemplazando las igualdades (5). (8) y (9) en la (1) se tiene:
+$$
+u´y´_1 + u\ y´´_1+v´\ y´_2 + v\ y´´_2 + f(x)[uy´_1+vy´_2]+ g(x)[uy_1 + vy_2]=r(x) \ \ (10)
+$$
+
+Reordenando la (10), sacando u y v como factores comunes, se puede escribir:
+$$
+u\textcolor{purple}{[y´´_1+f(x)y´_1+g(x)y_1]} + v \textcolor{purple}{[y´´_2+g(x)y_2]}+u´y´_1 + v´y´_2 = r(x) \ \ (11)
+$$
+Los dos corchetes indicados en color son nulos ya que $y_1(x) \ e \ y_2(x)$ son, separadamente, soluciones de la EDO homogénea. Por lo tanto se puede escribir:
+$$
+uý´_1+vý´_2=r(x) \ \ (12)
+$$
+Se puede ordenar las igualdades (7')y (12) como un sistema de dos ecuaciones lineales con dos incógnitas: $\textcolor{purple}{u'}$ ; $\textcolor{lightblue}{v'}$.
+$$
+\begin{cases}
+\textcolor{purple}{u'}y_1 + \textcolor{lightblue}{v'}y_2 \ \ \ \ \ \ \ \ \ \ \ \ \ \ (13)\\
+\textcolor{purple}{u'}y'_1 + \textcolor{lightblue}{v'}y'_2 = r(x)
+\end{cases}
+$$
+ Para que el sistema de ecuaciones (13) tenga una solución única deberá cumplirse que el determinante de los coeficientes de las incógnitas sea distinto de cero:
+$$
+W=\begin{vmatrix}
+y_1&y_2 \\
+y'_1&y'_2
+\end{vmatrix} \neq 0
+$$
+Los cuatro elementos que integran el determinante W son funciones conocidos, las cuales determinaron en la resolución de la EDO homogénea.
+Para obtener las incógnitas $\textcolor{purple}{u'(x)}\ y \ \textcolor{lightblue}{v'(x)}$ se se aplica la **REGLA DE CRAMER**
+$$
+\textcolor{purple}{u'(x)}=
+\frac{
+\begin{vmatrix}
+\textcolor{purple}{0} & y_2\\
+\textcolor{purple}{r(x)} & y'_2
+\end{vmatrix}}
+{\begin {vmatrix}
+y_1 & y_2\\
+y_1 & y_2
+\end{vmatrix}} = \frac {-y_2.r(x)}{y_1\cdot y'_2-y_2.y'_1}=\frac{-y_2.r(x)}{W} \ \ \ (14)
+$$
+Por lo tanto:
+$$
+\frac{du}{dx}=\frac{-y_2.r(x)}{W}
+$$
+Reordenando, tenemos:
+$$
+du=\frac{-y_2.r(x)}{W} dx
+$$
+Integrando la ec. anterior se obtendrá $u(x)$
+$$
+\int du=\int \frac{-y_2.r(x)}{W}\ dx \Rightarrow \boxed{u(x)=-\int\frac{y_2.r(x)}{W}\ dx}\ \ \ (15) 
+$$
+
+De manera similar se obtiene $v'(x):$
+$$
+\textcolor{lightblue}{v'(x)}=\frac{
+
+\begin{vmatrix}
+y_1&\textcolor{lightblue}0\\
+y'_1 &\textcolor{lightblue}{r(x)}
+\end{vmatrix}
+}{
+\begin{vmatrix}
+y_1&y_2\\
+y'_1&y'_2
+\end{vmatrix}
+}= \frac{y_1.r(x)}{y_1.y'_2-y_2.y'_1}=\frac{y_1.r(x)}W \ \ \ (16)
+$$
+$$
+\frac{dv}{dx}=\frac{y_1.r(x)}{W}
+$$
+Por lo tanto:
+$$
+fv=\frac{y_1.r(x)}{W}dx
+$$
+Integrando la ec. anterior se obtendrá $v(x)$
+$$
+\int dv= \int \frac{y_1.r(x)}{W}\ dx \Rightarrow \boxed{v(x)= \int \frac{y_1.r(x)}{W}dx} \ \ \ (17)
+$$
+
+Una vez determinadas $u(x)$ por la ec.(15) y $v(x)$ con la ec. (17), se reemplazan en la ec. (5) para obtener la $y_{pc}(x)$.
+
+$$y_{gh}(x) = C_1 y_1(x) + C_2 y_2(x) \qquad (4)$$
+
+$$y_{pc}(x) = u(x) y_1(x) + v(x) y_2(x) \qquad (5)$$
+
+$$y_{pc}(x) = \left[ -\int \frac{y_2 \cdot r(x)}{W} dx \right] \cdot y_1(x) + \left[ \int \frac{y_1 \cdot r(x)}{W} dx \right] \cdot y_2(x) \qquad (18)$$
+
+Reemplazando las ec. (4) y (18) en la ec. (2), obtenemos la expresión general para la Solución General de la EDO Lineal de 2º Orden No Homogénea
+
+$$\boxed{y(x) = C_1 y_1(x) + C_2 y_2(x) + \left[ -\int \frac{y_2 \cdot r(x)}{W} dx \right] \cdot y_1(x) + \left[ \int \frac{y_1 \cdot r(x)}{W} dx \right] \cdot y_2(x)}$$
+
+## Ec. Diferenciales de segundo orden lineales incompletas
+
+Se trata de Ecuaciones Diferenciales de segundo orden lineales en las que faltan alguno o algunos de los términos del primer miembro de la ec. (1).
+El método para su resolución permite reducirlas a EDO de primer orden, por ausencia de las variables x o y.
+Son tres casos posibles.
+
+**Caso 1:** En la EDO (1) faltan los términos $\textcolor{lightblue}{y'(x)}\ e\ \textcolor{lightblue}{y(x)}$. Por lo tanto $f(x)=0\ ; \ g(x)=0$ 
+Por ello la Ecuación diferencial se puede escribir de la siguiente manera: $y''(x)=r(x)$ siendo esta la forma explícita de la Ecuación diferencial.
+Se resuelve por dos pasos de integración sucesiva.
+$$
+Si \ \ y''(x)=r(x)\Rightarrow y'(x)=\int r(x)dx + C_1=s(x)+C_1 \ \ siendo \ \ s(x)=\int r(x) dx
+$$
+Integrando por segunda vez se tiene:
+
+$$
+\boxed{y(x)=\int s(x)dx+C_1x+C_2}
+$$
+
+**Caso 2:** En la EDO (1) falta el termino $y(x)$. Por lo tanto $g(x) = 0$ y la ecuación diferencial puede escribirse de modo implícito como:
+$$
+y''(x)=F(x,y')
+$$
+En esta expresión la función incógnita aparece sólo a través de sus derivadas primera y segunda.
+Se propone el siguiente cambio de variables: $y'=p \Rightarrow y''=p'$
+
+Reemplazando se tiene:
+$$
+p'=\frac{dp}{dx}=F(x,p)
+$$
+Que es una ecuación diferencial de primer orden lineal en x, p y p'. Se resuelve por los métodos vistos en los desarrollos teóricos anteriores. Una vez obtenida $p(x)$ se integra una vez para obtener $y(x)$
+
+**Caso 3:** En la EDO (1) falta x; es decir que la variable independiente no aparece explícitamente sino a través de la función incógnita y sus respectivas derivadas. Por lo tanto la ecuación diferencial puede escribirse de modo implícito como:
+$$
+y''(x) = F(y,y')
+$$
+Se procede por sustitución de manera similar al Caso 2. Entonces:
+$$
+y'=p\Rightarrow y''=p'=\frac{dp}{dx}
+$$
+Pero en este caso, además, y'' depende de y. Por lo tanto debe aplicarse la Regla de la Cadena para funciones compuestas:
+$$
+y''=p'=\frac{dp}{dx}=\frac{dp}{dy}\underbrace{\frac{dy}{dx}}_{\textcolor{lightblue}{y'}}= \frac{dp}{dy}\underbrace{y'}_{\textcolor{lightblue}p}=\frac{dp}{dy}p
+$$
+Por ello se puede escribir:
+$$
+p\frac{dp}{dy}=F(y,p)
+$$
+Se integra una vez para obtener p como función de y; y una segunda vez para obtener $y(x).$
+<mark style="background:#9254de">Nota: En todos los ejercicios se recomiendo verificar los resultados obtenidos</mark>
