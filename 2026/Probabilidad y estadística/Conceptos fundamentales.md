@@ -1,4 +1,4 @@
-
+w 
 **Población:** es la totalidad de los elementos bajo estudio
 **Muestra:** es sólo una parte de la población (subconjunto)
 **Experimento:** es la manipulación de los elementos de la población (o de la muestra) con el propósito de obtener un resultado.
