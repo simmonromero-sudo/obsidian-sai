@@ -229,6 +229,10 @@ Size, select, reject (not), collect, forAll, exist, empty, notEmpty, count(), su
 
 Cada sub-clase tiene operaciones especificas 
 
+### Ejercicios
+
+![[practica dsi OCL.eap]]
+
 Importe total = suma todos los detalles
 
 ```
@@ -250,3 +254,92 @@ Context venta
 
 inv: self.cliente.domicilio -> forAll (d|d.localidad.nombre = 'La Plata' ) 
 ```
+
+
+
+```
+1) El total de un pedido no puede ser negativo
+Context Pedido::total():Float
+post: result > 0
+inv: precioTotal > 0
+
+2) Un item siempre debe tener una cantidad positiva
+Context item
+inv: cantidad > 0
+
+3) Para que un cliente sea frecuente, debe tener al menos 5 pedidos   
+Context Cliente
+inv: frecuente implies self.pedidos -> size()>= 5
+
+4) El metodo total() puede ejecutarse solo si el estado del pedido es distinto de "Cancelado"
+   
+Context Pedido::total():Float
+
+pre estado <> EstadoPedido::Cancelado
+
+5) Al crear un pedido, su estado inicial debe ser "Pendiente"
+   
+Context Pedido::new():Pedido
+post: self.estado = EstadoPedido::Pendiente
+
+6) Si el pedido tiene envio asociado, entonces debe tener estado "Confirmado"
+
+Context Pedido
+
+inv: envio <> null implies estado = estadoPedido::Confirmado
+
+7) Subtotal de item se calcula automáticamente
+
+Context item::subtoTotal: Float
+
+derive: self.producto.getUnitario()*sel.cantidad
+
+8) Cada pedido debe tener al menos un item
+
+Context Pedido
+
+inv: item -> size() >= 1
+
+9) Si el estado del envio es "Entregado", el estado del pedido debe ser "Enviado"
+   
+Context Envio:
+
+inv: estado = estadoEnvio::Entregado implies self.pedido.estado = estadoPedido::Enviado
+
+10) Al ejecutar altaEnvio, el envio debe pasar a estado null a un estado inicial
+
+Context Pedido::altaEnvio:: Envio
+
+pre: envio.estado = null
+post: result.estado = EstadoEnvioo::En Preparación
+```
+
+  ```
+  
+1) El año de cualquier vehiculo no puede ser posterior al año actual
+
+Context Vehiculo
+
+inv: anio < getDate()
+
+2) Si un camión tiene acoplado, la carga máxima debe ser superior a 10.000kg
+   
+Context Camion
+
+pre: permiteAcoplado = true
+post: TotalCargaMaxima > 10.000
+
+3) Un Auto debe tener exactamente 4 ruedas (cantidadRuedas), mientras que un Motociceta debe tener exactamente 2.
+   
+Context Vehiculo
+
+inv: self.Auto.cantidadRuedas = 4 and self.Motocicleta.cantRuedas = 2
+
+4) Un Vehiculo solo puede tener un propietario cuya edad sea >= a 16 años. Para ser propietario de un camión se debe tener al menos 21 años.
+
+Context vehiculo
+
+inv: self.propietario.edad >= 16 
+inv: self.Camion implies self.Propietario.edad >= 21 
+
+  ```
