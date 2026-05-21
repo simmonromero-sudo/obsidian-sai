@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6cefcf6805537d43",
+        "id": "be18c3ee267bdf6a",
         "type": "tabs",
         "children": [
           {
-            "id": "f2d9f57ca818f058",
+            "id": "b2a9f4f0398d9abc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026/Diseño de sistemas de información/DS2026 - Empresa.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DS2026 - Empresa"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -210,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,54 +221,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f2d9f57ca818f058",
+  "active": "b2a9f4f0398d9abc",
   "lastOpenFiles": [
+    "2026/Tecnología y gestión web/Teoria/Modelo de negocio.md",
+    "2026/Tecnología y gestión web/Teoria/Redes.md",
+    "2026/AM II/FUNCIONES DE VARIAS VARIABLES.md",
+    "2026/AM II/EJERCICIOS A LLEVAR EL 21.md",
+    "2026/Comunicacion de datos/CLASE 2.md",
+    "2026/Desarrollo de software/DS2026 - Empresa.md",
+    "2026/Tecnología y gestión web/Teoria/API.md",
+    "Pasted image 20260520151054.png",
+    "Pasted image 20260520150831.png",
+    "2026/Tecnología y gestión web/Teoria/JavaScript.md",
+    "2026/Tecnología y gestión web/Teoria/CSS.md",
+    "Pasted image 20260520141459.png",
+    "2026/Tecnología y gestión web/Teoria/HTML.md",
+    "Pasted image 20260520135446.png",
+    "practica dsi OCL.eap",
+    "Pasted image 20260519215122.png",
+    "Pasted image 20260519204511.png",
+    "Pasted image 20260519200209.png",
+    "Pasted image 20260519195940.png",
+    "Pasted image 20260519195219.png",
+    "Pasted image 20260519194739.png",
+    "2026/Tecnología y gestión web/Teoria/Historia de la WEB.md",
+    "2026/Tecnología y gestión web/Teoria/Arquitectura.md",
+    "2026/Tecnología y gestión web/Teoria",
+    "2026/Probabilidad y estadística/TP3.md",
+    "2026/Diseño de sistemas de información/OCL.md",
+    "2026/Bases de datos/Transacciones.md",
     "2026/Bases de datos/CLASE 9 SQL.md",
-    "2026/Diseño de sistemas de información/DS2026 - Empresa.md",
     "2026/Probabilidad y estadística/Sin título.md",
     "2026/Probabilidad y estadística/Probabilidad condicional.md",
     "2026/Probabilidad y estadística/Conceptos fundamentales.md",
     "2026/Diseño de sistemas de información/CLASE 6.md",
-    "2026/AM II/FUNCIONES DE VARIAS VARIABLES.md",
     "2026/PARCIALES.md",
     "2026/Bases de datos/MODELO ENTIDAD RELACIÓN.md",
     "clase 6 practica.eap",
-    "Pasted image 20260420161708.png",
-    "Pasted image 20260420155702.png",
-    "Pasted image 20260416093833.png",
-    "Pasted image 20260416093342.png",
-    "Pasted image 20260416092956.png",
-    "Pasted image 20260416090754.png",
     "2026/Probabilidad y estadística",
     "2026/Desarrollo de software/CLASE 5.md",
     "2026/Desarrollo de software/CLASE 4.md",
     "2026/Bases de datos/ÁLGEBRA REALCIONAL.md",
     "2026/Bases de datos/CLASE 3.md",
-    "2026/Bases de datos/CLASE 5.md",
-    "2026/Bases de datos/CLASE 1.md",
-    "2026/Diseño de sistemas de información/CLASE 4.md",
-    "2026/AM II/EDO.md",
-    "2026/AM II/EJERCICIOS A LLEVAR EL 21.md",
-    "2026/Planificación.md",
-    "2026/Diseño de sistemas de información/CLASE 5.md",
     "calase 3 1.ldb",
-    "2026/Diseño de sistemas de información/CLASE 3.md",
     "calase 3.ldb",
-    "2026/Desarrollo de software/CLASE 3.md",
-    "Pasted image 20260413090832.png",
-    "Pasted image 20260413090212.png",
-    "Pasted image 20260413084542.png",
-    "Pasted image 20260413082234.png",
-    "2026/Tecnología y gestión web/CLASE 2.md",
     "calase 3 1.eap",
     "2026/Física II",
     "2026/AM II",
-    "2026/Desarrollo de software/CLASE 2.md",
-    "2026/Desarrollo de software/CLASE 1.md",
     "calase 3.eap",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Untitled.canvas",
-    "2026/Tecnología y gestión web/CLASE 1.md"
+    "Untitled.canvas"
   ]
 }
