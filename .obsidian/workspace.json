@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/Tecnología y gestión web/Teoria/HTML.md",
+                "file": "2026/Tecnología y gestión web/Teoria/Redes sociales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "Redes sociales"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0143c7fe56a49ec1",
@@ -218,11 +219,14 @@
   },
   "active": "f2d9f57ca818f058",
   "lastOpenFiles": [
+    "2026/Tecnología y gestión web/Teoria/Modelo de neg.md",
+    "2026/Tecnología y gestión web/Teoria/Redes sociales.md",
+    "Pasted image 20260520193839.png",
+    "2026/Tecnología y gestión web/Teoria/HTML.md",
     "2026/Tecnología y gestión web/Teoria/JS.md",
     "2026/Tecnología y gestión web/Teoria/Redes.md",
     "Pasted image 20260519215122.png",
     "Pasted image 20260519204511.png",
-    "2026/Tecnología y gestión web/Teoria/HTML.md",
     "2026/Tecnología y gestión web/Teoria/CSS.md",
     "2026/Tecnología y gestión web/Teoria/Arquitectura.md",
     "2026/Tecnología y gestión web/Teoria",
@@ -240,7 +244,6 @@
     "2026/Probabilidad y estadística/Conceptos fundamentales.md",
     "2026/Bases de datos/MODELO ENTIDAD RELACIÓN.md",
     "Pasted image 20260506091218.png",
-    "Pasted image 20260506091006.png",
     "2026/Bases de datos/Transacciones.md",
     "2026/Planificación.md",
     "2026/Bases de datos/CLASE 9 SQL.md",
@@ -258,7 +261,6 @@
     "2026/PARCIALES.md",
     "Untitled/ASI.md",
     "2026-04-27.md",
-    "Untitled/SIST OP..md",
     "2026/Probabilidad y estadística",
     "calase 3 1.ldb",
     "calase 3.ldb",
