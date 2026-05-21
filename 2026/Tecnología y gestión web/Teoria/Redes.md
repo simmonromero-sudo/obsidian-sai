@@ -5,7 +5,7 @@ Los modelos de redes son marcos de referencia que permiten estandarizar as arqui
 
 #### Modelo OSI
 
-El modelos OSI divide la comunicación entre dos dispositivos en siete capas. Cada una de ellas, incluye una serie de protocolos para permitir la comunicación. Cabe aclarar que cada dispositivos va a implementar una o más capas siempre comenzando por la capa física. A modo de ejemplo, una computadora va a implementar todas las capas, ya que presenta funcionalidad desde la conexión al medio hasta la capa de aplicación. En cambio, u switch solo va a presentar características de la capa física y de enlace 
+El modelos OSI divide la comunicación entre dos dispositivos en siete capas. Cada una de ellas, incluye una serie de protocolos para permitir la comunicación. Cabe aclarar que cada dispositivos va a implementar una o más capas siempre comenzando por la capa física. A modo de ejemplo, una computadora va a implementar todas las capas, ya que presenta funcionalidad desde la conexión al medio hasta la capa de aplicación. En cambio, un switch solo va a presentar características de la capa física y de enlace 
 ![[Pasted image 20260519204511.png]]
 
 Este modelo presenta todas las funciones de l comunicación divididas en diferentes capas. Cada una de ellas recibe peticiones de la capa superior y toma servicios de las capas inferiores.
