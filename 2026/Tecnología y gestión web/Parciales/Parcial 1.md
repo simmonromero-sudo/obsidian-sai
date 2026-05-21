@@ -85,7 +85,7 @@ function validar(){
 
 En el paradigma cliente servidor, el "cliente" es el navegador web (Chrome, Edge, etc.). Las tecnologías del lado del cliente son aquellas que se descargan y ejecutan directamente en el dispositivo del usuario para armar y dar vida a la interfaz. Las principales son;
 
-HTML, es lenguaje de marcado, le da toda la estructura a la pagina. Define los elementos existentes en la misma
+HTML, es lenguaje de marcado, le da toda la estructura a la pagina. Define con etiquetas los elementos existentes en la misma
 CSS, agrega los estilos a los respectivos elementos del HTML
 JavaScript, es la capa de comportamiento. Lenguaje que permite reaccionar a eventos del usuario
 
