@@ -109,7 +109,7 @@ La normalización es un mecanismo que permite que un conjunto de tablas, que int
 
 - El objetivo principal es minimizar la redundancia de información
 - Por ej., cuando generamos una nueva tabla con las CP de las dos entidades que relaciona, hay información repetida. Sin embargo, esta redundancia es necesaria para representar la relación en el modelo físico.
-- Existen otros caso de redundancias <<no deseadas>>, que generan anomalías. Se clasifican en:
+- Existen otros caso de redundancias no deseadas, que generan anomalías. Se clasifican en:
 	1. Anomalías de inserción
 	2. Anomalías de borrado
 	3. Anomalías de modificación
